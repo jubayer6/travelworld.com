@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.PNG" type="image/x-icon">
+    <!-- Font familly link from google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans&family=Poppins&family=Rancho&display=swap" rel="stylesheet">
+    <!-- Font awesome link bellow -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- slider css link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <!-- button animation  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <!-- main stylesheet link bellow  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- media query link bellow  -->
+    <link rel="stylesheet" href="media.css">
+    <title>Travel World</title>
+</head>
+
+<body>
+
+    <div class="landing" id="home">
+        <nav class="main_nav sticky">
+            <div class="nav_container">
+                <div class="logo">
+                    <img src="logo.png" alt="">
+                </div>
+                <div class="nav_item">
+                    <a href="#home" id="nav1">Home</a>
+                    <a href="#about" id="nav2">About</a>
+                    <a href="#place" id="nav3">Places</a>
+                    <a href="#gallery" id="nav4">Gallery</a>
+                    <a href="#order_section" id="nav5">Order</a>
+                    <div class="nav_bg start"></div>
+                </div>
+                <!-- Mobial navbar  -->
+                <div class="mobial-menu">
+                    <div class="span" onclick="openNav()">&#9776;</div>
+                    <div id="myNav" class="over">
+                        <a href="javascreet:void()" onclick="closeNav()" class="closebtn">&times;</a>
+                        <div class="over-content">
+                            <a href="#home" onclick="closeNav()" id="nav1">Home</a>
+                            <a href="#about" onclick="closeNav()" id="nav2">About</a>
+                            <a href="#place" onclick="closeNav()" id="nav3">Places</a>
+                            <a href="#gallery" onclick="closeNav()" id="nav4">Gallery</a>
+                            <a href="#order_section" onclick="closeNav()" id="nav5">Order</a>
+                        </div>
+                        <div class="mobial_social_link">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mobial navbar  -->
+                <div class="social_link">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="banner">
+            <div class="banner_container">
+                <div class="login_with">
+                    <div class="with_google">
+                        <a class="ripple" href="#"><i class="fa fa-google-plus"></i>Sign in with Google</a>
+                    </div>
+                    <div class="with_facebook">
+                        <a class="ripple" href="#"><i class="fa fa-facebook"></i>Sign in with Facebook</a>
+                    </div>
+                </div>
+                <div class="login">
+                    <div class="singup">
+                        <a class="ripple" href="#">Login or Signup</a>
+                    </div>
+                </div>
+                <h1 class="welcome">Biggest travel agency</h1>
+                <div class="search_box">
+                    <input type="text" placeholder="Search your favourite place">
+                    <i class="fa fa-microphone"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="details">
+            <div class="main_txt">
+                <h1>About us</h1>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem ipsum ducimus sapiente dolorem! Officiis
+                quis inventore consequatur voluptate, excepturi earum maiores odit rerum autem dignissimos. Nobis vel
+                quas quis obcaecati!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga illo recusandae, accusamus consequuntur
+                commodi temporibus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam eos labore temporibus velit. Nulla
+                eaque unde repellat earum, inventore architecto.</p>
+            <div class="readMore">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, voluptate. Amet voluptatum
+                    necessitatibus corrupti nisi nulla est minus totam excepturi veritatis enim ipsa, ipsum incidunt
+                    quia a exercitationem libero velit quas repellendus voluptates sed doloribus cumque nostrum? Enim,
+                    magni iusto.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum enim quis, quos illum exercitationem
+                    et magni quo laudantium! Porro, maxime.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex at nemo et dignissimos tempora molestiae,
+                    possimus pariatur quidem dolor consectetur corrupti optio labore beatae</p>
+                <button class="read_less" type="button">Close</button>
+            </div>
+            <div class="about_links">
+                <button class="read_more" type="button">read more <i class="fa fa-arrow-right"></i></button>
+                <a href="#">view gallery <i class="fa fa-th"></i></a>
+                <a href="#">report us <i class="fa fa-flag"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="place" id="place">
+        <div class="place_head">
+            <h1>Our authorized places</h1>
+        </div>
+        <div class="place_container">
+            <div class="all_places">
+                <div class="single_place place1">
+                    <div class="place_box place_box1">
+                        <div class="top_bars">
+                            <!-- country function  -->
+                            <button type="button" onclick="open_pls1()"><abbr title="Places"><i
+                                        class="fa fa-map-marker"></i></abbr></button>
+                            <!-- place function  -->
+                            <button onclick=" open_con1()"><abbr title="Country"><i
+                                        class="fa fa-globe"></i></abbr></button>
+                        </div>
+                        <div class="main_center">
+                            <div class="center_img">
+                                <h1>Asia</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae veniam
+                                    exercitationem quam alias vel tempore possimus hic dolor maiores iure.</p>
+                                <div class="box_btn">
+                                    <a href="#">Watch gallery <i class="fa fa-eye"></i></a>
+                                    <a href="#">Book Tikit <i class="fa fa-ticket"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom_btn">
+                            <button><abbr title="Like"><i class="fa fa-heart"></i></abbr></button>
+                            <button><abbr title="BookMark"><i class="fa fa-bookmark"></i></abbr></button>
+                            <button><abbr title="Order Now"><i class="fa fa-first-order"></i></abbr></button>
+                        </div>
+                        <!-- country slider  -->
+                        <div class="country country1">
+                            <div class="p_country">
+                                <p id="p_name">india</p>
+                                <p id="p_name">36 tour</p>
+                            </div>
+                            <div class="p_country">
+                                <p id="p_name">bangladesh</p>
+                                <p id="p_name">25 tour</p>
+                            </div>
+                            <div class="p_country">
+                                <p id="p_name">Japan</p>
+                                <p id="p_name">16 Tour</p>
+                            </div>
+                            <div class="p_country">
+                                <p id="p_name">Russia</p>
+                                <p id="p_name">15 tour</p>
+                            </div>
+                            <div class="p_country">
+                                <p id="p_name">China</p>
+                                <p id="p_name">40 tour</p>
+                            </div>
+                        </div>
+
+                        <!-- place slider  -->
+                        <div class="places places1">
+                            <div class="p_places">
+                                <p id="p_name">Darjiling</p>
+                                <p id="p_name">Cost: 300$</p>
+                            </div>
+                            <div class="p_places">
+                                <p id="p_name">Cox's bazar</p>
+                                <p id="p_name">Cost: 250$</p>
+                            </div>
+                            <div class="p_places">
+                                <p id="p_name">Place</p>
+                                <p id="p_name">Cost: $0.00</p>
+                            </div>
+                            <div class="p_places">
+                                <p id="p_name">Place</p>
+                                <p id="p_name">Cost: $0.00</p>
+                            </div>
+                            <div class="p_places">
+                                <p id="p_name">Place</p>
+                                <p id="p_name">Cost: $0.00</p>
+                            </div>
+                            <div class="p_places">
+                                <p id="p_name">Place</p>
+                                <p id="p_name">Cost: $0.00</p>
+                            </div>
+                            <div class="p_places">
+                                <p id="p_name">Place</p>
+                                <p id="p_name">Cost: $0.00</p>
+                            </div>
+                            <div class="p_places">
+                                <p id="p_name">Place</p>
+                                <p id="p_name">Cost: $0.00</p>
+                            </div>
+                            <div class="p_places">
+                                <p id="p_name">Place</p>
+                                <p id="p_name">Cost: $0.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="single_place place2">
+                    <div class="place_box place_box2">
+                        <div class="top_bars">
+                            <!-- country function  -->
+                            <button type="button" onclick="open_pls2()"><abbr title="Places"><i
+                                        class="fa fa-map-marker"></i></abbr></button>
+                            <!-- place function  -->
+                            <button onclick=" open_con2()"><abbr title="Country"><i
+                                        class="fa fa-globe"></i></abbr></button>
+                        </div>
+                        <div class="main_center">
+                            <div class="center_img">
+                                <h1>Europe</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae veniam
+                                    exercitationem quam alias vel tempore possimus hic dolor maiores iure.</p>
+                                <div class="box_btn">
+                                    <a href="#">Watch gallery <i class="fa fa-eye"></i></a>
+                                    <a href="#">Book Tikit <i class="fa fa-ticket"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom_btn">
+                            <button><abbr title="Like"><i class="fa fa-heart"></i></abbr></button>
+                            <button><abbr title="BookMark"><i class="fa fa-bookmark"></i></abbr></button>
+                            <button><abbr title="Order Now"><i class="fa fa-first-order"></i></abbr></button>
+                        </div>
+                        <!-- country slider  -->
+                        <div class="country country2">
+                            <div class="p_country">
+                                <p id="p_name">Itali</p>
+                                <p id="p_name">55 tour</p>
+                            </div>
+                            <div class="p_country">
+                                <p id="p_name">Gurmany</p>
+                                <p id="p_name">22 tour</p>
+                            </div>
+                            <div class="p_country">
+                                <p id="p_name">Spain</p>
+                                <p id="p_name">66 tour</p>
+                            </div>
+                            <div class="p_country">
+                                <p id="p_name">Finland</p>
+                                <p id="p_name">00 tour</p>
+                            </div>
+                            <div class="p_country">
+                                <p id="p_name">France</p>
+                                <p id="p_name">00 tour</p>
+                            </div>
+                            <div class="p_country">
+                                <p id="p_name">Putrogal</p>
+                                <p id="p_name">00 tour</p>
+                            </div>
+                        </div>
+
+                        <!-- place slider  -->
+                        <div class="places places2">
+                            <div class="p_places">
+                                <p id="p_name">Place name</p>
+                                <p id="p_name">Cost: 00</p>
+                            </div>
+                            <div class="p_places">
+                                <p id="p_name">Place name</p>
+                                <p id="p_name">Cost: 00</p>
+                            </div>
+                            <div class="p_places">
+                                <p id="p_name">Place name</p>
+                                <p id="p_name">Cost: 00</p>
+                            </div>
+                            <div class="p_places">
+                                <p id="p_name">Place name</p>
+                                <p id="p_name">Cost: 00</p>
+                            </div>
+                            <div class="p_places">
+                                <p id="p_name">Place name</p>
+                                <p id="p_name">Cost: 00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="single_place place3">
+                    <div class="place_box place_box3">
+                        <div class="top_bars">
+                            <!-- country function  -->
+                            <button type="button" onclick="open_pls3()"><abbr title="Places"><i
+                                        class="fa fa-map-marker"></i></abbr></button>
+                            <!-- place function  -->
+                            <button onclick=" open_con3()"><abbr title="Country"><i
+                                        class="fa fa-globe"></i></abbr></button>
+                        </div>
+                        <div class="main_center">
+                            <div class="center_img">
+                                <h1>North <br> Amarica</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae veniam
+                                    exercitationem quam alias vel tempore possimus hic dolor maiores iure.</p>
+                                <div class="box_btn">
+                                    <a href="#">Watch gallery <i class="fa fa-eye"></i></a>
+                                    <a href="#">Book Tikit <i class="fa fa-ticket"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom_btn">
+                            <button><abbr title="Like"><i class="fa fa-heart"></i></abbr></button>
+                            <button><abbr title="BookMark"><i class="fa fa-bookmark"></i></abbr></button>
+                            <button><abbr title="Order Now"><i class="fa fa-first-order"></i></abbr></button>
+                        </div>
+                        <!-- country slider  -->
+                        <div class="country country3">
+                            <div class="p_country">
+                                <p id="p_name">yoo</p>
+                                <p id="p_name">hunny sing</p>
+                            </div>
+                            <div class="p_country">
+                                <p id="p_name">baby</p>
+                                <p id="p_name">Bangladesh</p>
+                            </div>
+                            <div class="p_country">
+                                <p id="p_name">Japan</p>
+                                <p id="p_name">Japan</p>
+                            </div>
+                        </div>
+
+                        <!-- place slider  -->
+                        <div class="places places3">
+                            <div class="p_places">
+                                <p id="p_name">lorem</p>
+                                <p id="p_name">India</p>
+                            </div>
+                            <div class="p_places">
+                                <p id="p_name">ipsam</p>
+                                <p id="p_name">Bangladesh</p>
+                            </div>
+                            <div class="p_places">
+                                <p id="p_name">dollar</p>
+                                <p id="p_name">Japan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="all_places all_places2">
+                <div class="single_place place4">
+                    <div class="place_box place_box4">
+                        <div class="top_bars">
+                            <!-- country function  -->
+                            <button type="button" onclick="open_pls4()"><abbr title="Places"><i
+                                        class="fa fa-map-marker"></i></abbr></button>
+                            <!-- place function  -->
+                            <button onclick=" open_con4()"><abbr title="Country"><i
+                                        class="fa fa-globe"></i></abbr></button>
+                        </div>
+                        <div class="main_center">
+                            <div class="center_img">
+                                <h1>South <br> Amarica</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae veniam
+                                    exercitationem quam alias vel tempore possimus hic dolor maiores iure.</p>
+                                <div class="box_btn">
+                                    <a href="#">Watch gallery <i class="fa fa-eye"></i></a>
+                                    <a href="#">Book Tikit <i class="fa fa-ticket"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom_btn">
+                            <button><abbr title="Like"><i class="fa fa-heart"></i></abbr></button>
+                            <button><abbr title="BookMark"><i class="fa fa-bookmark"></i></abbr></button>
+                            <button><abbr title="Order Now"><i class="fa fa-first-order"></i></abbr></button>
+                        </div>
+                        <!-- country slider  -->
+                        <div class="country country4">
+                            <div class="p_country">
+                                <p id="p_name">yoo</p>
+                                <p id="p_name">hunny sing</p>
+                            </div>
+                            <div class="p_country">
+                                <p id="p_name">baby</p>
+                                <p id="p_name">Bangladesh</p>
+                            </div>
+                            <div class="p_country">
+                                <p id="p_name">Japan</p>
+                                <p id="p_name">Japan</p>
+                            </div>
+                        </div>
+
+                        <!-- place slider  -->
+                        <div class="places places4">
+                            <div class="p_places">
+                                <p id="p_name">lorem</p>
+                                <p id="p_name">India</p>
+                            </div>
+                            <div class="p_places">
+                                <p id="p_name">ipsam</p>
+                                <p id="p_name">Bangladesh</p>
+                            </div>
+                            <div class="p_places">
+                                <p id="p_name">dollar</p>
+                                <p id="p_name">Japan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="single_place place5">
+                    <div class="place_box place_box5">
+                        <div class="top_bars">
+                            <!-- country function  -->
+                            <button type="button" onclick="open_pls5()"><abbr title="Places"><i
+                                        class="fa fa-map-marker"></i></abbr></button>
+                            <!-- place function  -->
+                            <button onclick=" open_con5()"><abbr title="Country"><i
+                                        class="fa fa-globe"></i></abbr></button>
+                        </div>
+                        <div class="main_center">
+                            <div class="center_img">
+                                <h1>Africa</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae veniam
+                                    exercitationem quam alias vel tempore possimus hic dolor maiores iure.</p>
+                                <div class="box_btn">
+                                    <a href="#">Watch gallery <i class="fa fa-eye"></i></a>
+                                    <a href="#">Book Tikit <i class="fa fa-ticket"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom_btn">
+                            <button><abbr title="Like"><i class="fa fa-heart"></i></abbr></button>
+                            <button><abbr title="BookMark"><i class="fa fa-bookmark"></i></abbr></button>
+                            <button><abbr title="Order Now"><i class="fa fa-first-order"></i></abbr></button>
+                        </div>
+                        <!-- country slider  -->
+                        <div class="country country5">
+                            <div class="p_country">
+                                <p id="p_name">yoo</p>
+                                <p id="p_name">hunny sing</p>
+                            </div>
+                            <div class="p_country">
+                                <p id="p_name">baby</p>
+                                <p id="p_name">Bangladesh</p>
+                            </div>
+                            <div class="p_country">
+                                <p id="p_name">Japan</p>
+                                <p id="p_name">Japan</p>
+                            </div>
+                        </div>
+
+                        <!-- place slider  -->
+                        <div class="places places5">
+                            <div class="p_places">
+                                <p id="p_name">lorem</p>
+                                <p id="p_name">India</p>
+                            </div>
+                            <div class="p_places">
+                                <p id="p_name">ipsam</p>
+                                <p id="p_name">Bangladesh</p>
+                            </div>
+                            <div class="p_places">
+                                <p id="p_name">dollar</p>
+                                <p id="p_name">Japan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="single_place place6">
+                    <div class="place_box place_box6">
+                        <div class="top_bars">
+                            <!-- country function  -->
+                            <button type="button" onclick="open_pls6()"><abbr title="Places"><i
+                                        class="fa fa-map-marker"></i></abbr></button>
+                            <!-- place function  -->
+                            <button onclick=" open_con6()"><abbr title="Country"><i
+                                        class="fa fa-globe"></i></abbr></button>
+                        </div>
+                        <div class="main_center">
+                            <div class="center_img">
+                                <h1>Australia</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae veniam
+                                    exercitationem quam alias vel tempore possimus hic dolor maiores iure.</p>
+                                <div class="box_btn">
+                                    <a href="#">Watch gallery <i class="fa fa-eye"></i></a>
+                                    <a href="#">Book Tikit <i class="fa fa-ticket"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom_btn">
+                            <button><abbr title="Like"><i class="fa fa-heart"></i></abbr></button>
+                            <button><abbr title="BookMark"><i class="fa fa-bookmark"></i></abbr></button>
+                            <button><abbr title="Order Now"><i class="fa fa-first-order"></i></abbr></button>
+                        </div>
+                        <!-- country slider  -->
+                        <div class="country country6">
+                            <div class="p_country">
+                                <p id="p_name">yoo</p>
+                                <p id="p_name">hunny sing</p>
+                            </div>
+                            <div class="p_country">
+                                <p id="p_name">baby</p>
+                                <p id="p_name">Bangladesh</p>
+                            </div>
+                            <div class="p_country">
+                                <p id="p_name">Japan</p>
+                                <p id="p_name">Japan</p>
+                            </div>
+                        </div>
+
+                        <!-- place slider  -->
+                        <div class="places places6">
+                            <div class="p_places">
+                                <p id="p_name">lorem</p>
+                                <p id="p_name">India</p>
+                            </div>
+                            <div class="p_places">
+                                <p id="p_name">ipsam</p>
+                                <p id="p_name">Bangladesh</p>
+                            </div>
+                            <div class="p_places">
+                                <p id="p_name">dollar</p>
+                                <p id="p_name">Japan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="counter_js">
+        <div class="counters">
+            <div class="single_counter">
+                <div class="cont">
+                    <i class="fa fa-globe"></i>
+                    <div class="counter">100</div>
+                    <h2>Total Country</h2>
+                </div>
+            </div>
+
+            <div class="single_counter">
+                <div class="cont">
+                    <i class="fa fa-map-marker"></i>
+                    <div class="counter">300</div>
+                    <h2>Total place</h2>
+                </div>
+            </div>
+
+            <div class="single_counter">
+                <div class="cont">
+                    <i class="fa fa-users"></i>
+                    <div class="counter">240000</div>
+                    <h2>Total Passenger</h2>
+                </div>
+            </div>
+
+            <div class="single_counter">
+                <div class="cont">
+                    <i class="fa fa-plane"></i>
+                    <div class="counter">400</div>
+                    <h2>Total Tour</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sponsor">
+        <div class="place_head sponsor_head">
+            <h1>Our sponsor</h1>
+        </div>
+        <div class="spon_container">
+            <div class="spon sponsor1"></div>
+            <div class="spon sponsor2"></div>
+            <div class="spon sponsor3"></div>
+        </div>
+    </div>
+
+    <div class="wapper" id="gallery">
+        <div class="place_head gallery_head">
+            <h1>Our Gellary</h1>
+        </div>
+        <div class="gallery">
+            <div class="image">
+                <div class="span"><img src="1.jpg" alt=""></div>
+            </div>
+            <div class="image">
+                <div class="span"><img src="2.jpg" alt=""></div>
+            </div>
+            <div class="image">
+                <div class="span"><img src="3.jpg" alt=""></div>
+            </div>
+            <div class="image">
+                <div class="span"><img src="4.jpg" alt=""></div>
+            </div>
+            <div class="image">
+                <div class="span"><img src="5.jpg" alt=""></div>
+            </div>
+            <div class="image">
+                <div class="span"><img src="6.jpg" alt=""></div>
+            </div>
+            <div class="image">
+                <div class="span"><img src="7.jpg" alt=""></div>
+            </div>
+            <div class="image">
+                <div class="span"><img src="8.jpg" alt=""></div>
+            </div>
+            <div class="image">
+                <div class="span"><img src="9.jpg" alt=""></div>
+            </div>
+            <div class="image">
+                <div class="span"><img src="10.jpg" alt=""></div>
+            </div>
+            <div class="image">
+                <div class="span"><img src="11.jpg" alt=""></div>
+            </div>
+            <div class="image">
+                <div class="span"><img src="12.jpg" alt=""></div>
+            </div>
+            <div class="image">
+                <div class="span"><img src="13.jpg" alt=""></div>
+            </div>
+            <div class="image">
+                <div class="span"><img src="14.jpg" alt=""></div>
+            </div>
+            <div class="image">
+                <div class="span"><img src="15.jpg" alt=""></div>
+            </div>
+            <div class="image">
+                <div class="span"><img src="16.jpg" alt=""></div>
+            </div>
+            <div class="image">
+                <div class="span"><img src="17.jpg" alt=""></div>
+            </div>
+            <div class="image">
+                <div class="span"><img src="18.jpg" alt=""></div>
+            </div>
+            <div class="image">
+                <div class="span"><img src="19.jpg" alt=""></div>
+            </div>
+            <div class="image">
+                <div class="span"><img src="20.jpg" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="preview_box">
+        <div class="p_details">
+            <div class="title">
+                Image <p class="current_img"></p> of <p class="total_img"></p>
+            </div>
+            <i class="fa fa-times"></i>
+        </div>
+        <div class="image_box">
+            <div class="slide prev">
+                <i class="fa fa-angle-left"></i>
+            </div>
+            <div class="slide next">
+                <i class="fa fa-angle-right"></i>
+            </div>
+            <img src=" alt="">
+        </div>
+    </div>
+    <div class=" shadow">
+        </div>
+
+    <div class="order" id="order_section">
+        <div class="place_head order_head">
+            <h1>Wanna go where?</h1>
+        </div>
+        <div class="hero">
+            <div class="mou">
+                <div class="form-box">
+                    <div class="button-box">
+                        <div id="btn"></div>
+                        <button type="button" class="toggle-btn" onclick="order()">Order Place</button>
+                        <button type="button" class="toggle-btn" onclick="contact()">Contact us</button>
+                    </div>
+                    <form action="/" method="GET" id="order" class="input-group">
+                            <input class="input" type="text" placeholder="Full name" required>
+                            <input class="input" type="email" placeholder="Email" required>
+                            <input class="input" type="text" placeholder="Phone Number" required>
+                            <input class="input" type="text" placeholder="Present Address" required>
+                        <h3 class="form_t">Going To</h3>
+                        <div class="going">
+                            <div class="select_div">
+                                <select id="continent">
+                                    <option value="0">Select Continent</option>
+                                    <option value="1">Asia</option>
+                                    <option value="2">Europe</option>
+                                    <option value="3">North Amarica</option>
+                                    <option value="4">South Amarica</option>
+                                    <option value="5">Africa</option>
+                                    <option value="6">Austrelia</option>
+                                </select>
+                                <div class="selected_country">
+                                </div>
+                                <div class="selected_place"></div>
+                            </div>
+                            <div class="date">
+                                <input type="date" required>
+                                <input type="number" placeholder="Total day" required>
+                            </div>
+                        </div>
+                        <h3 class="form_t">Come Back on</h3>
+                        <div class="come_back">
+                            <div class="date">
+                                <input type="date" required>
+                            </div>
+                        </div>
+                        <button class="button-hold" type="submit">
+                            <div>
+                                <svg class="progress" viewBox="0 0 32 32">
+                                    <circle r="8" cx="16" cy="16" />
+                                </svg>
+                                <svg class="tick" viewBox="0 0 24 24">
+                                    <polyline points="18,7 11,16 6,12" />
+                                </svg>
+                            </div>
+                            Tap to Confrom order
+                        </button>
+                    </form>
+                    <form action="/" method="GET" id="contact" class="input-group">
+                        <input class="input" placeholder="Name" type="text" required>
+                        <input class="input" placeholder="Phone Number" type="text" required>
+                        <input class="input" type="email" placeholder="Email" required>
+                        <textarea class="input" cols="30" rows="5" placeholder="Message" required></textarea>
+                        <button class="button" type="submit">
+                            <div class="plan default">Send</div>
+                            <div class="plan success">Sent</div>
+                            <div class="left"></div>
+                            <div class="right"></div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer_container">
+            <div class="footerL">
+                <h2 class="fl_title">Menu</h2>
+                <div class="fmenu">
+                    <a href="#home" id="nav1">Home</a>
+                    <a href="#about" id="nav2">About</a>
+                    <a href="#place" id="nav3">Places</a>
+                    <a href="#gallery" id="nav4">Gallery</a>
+                    <a href="#order_section" id="nav5">Order</a>
+                </div>
+            </div>
+            <div class="footerM">
+                <div class="fLogo"></div>
+                <div class="subs">
+                    <form action="">
+                        <input type="email" placeholder="Type Email" required>
+                        <input type="submit" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+            <div class="footerR">
+                <h2 class="fr_title">Download our app</h2>
+                <div class="downloadApp">
+                    <a href="#">Download App from play store</a>
+                    <a href="#">Get it from Apple store</a>
+                    <a href="#">Download App from Windows store</a>
+                </div>
+                <div class="fLinks">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="go_top">
+        <a href="#home"><i class="fa fa-arrow-up"></i></a>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- counter js link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <!-- plan animation js link  -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js'></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

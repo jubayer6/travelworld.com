@@ -1,0 +1,254 @@
+@media only screen and (max-width: 1024px){
+    .nav_item,
+    .social_link{
+        display: none;
+    }
+
+    .mobial-menu .span{
+        display: block;
+    }
+
+    .logo img{
+        width: 55%;
+    }
+
+    .welcome{
+        font-size: 7rem;
+    }
+
+    .search_box{
+        top: 144%;
+    }
+
+    .search_box input{
+        width: 45rem;
+        font-size: 1.5rem;
+    }
+
+    /* javascript count  */
+
+    .counter_js{
+        height: 130vh;
+    }
+
+    /* sponsor section  */
+
+    .sponsor{
+        height: 90vh;
+    }
+
+    /* gallery section  */
+
+    .wapper{
+        padding: 10rem;
+    }
+
+    .gallery .image{
+        width: calc(100% / 3);
+    }
+
+    /* order section  */
+
+    .order{
+        height: 130vh;
+    }
+
+    /* footer section  */
+
+    .footer_container{
+        padding: 0 2rem;
+    }
+
+    .fLogo{
+        left: 45%;
+    }
+
+    .subs{
+        left: 45%;
+    }
+}
+
+ 
+
+@media only screen and (max-width: 980px){
+    html{
+        font-size: 57.5%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    html{
+        font-size: 56%;
+    }
+
+    .welcome{
+        font-size: 5.7rem;
+    }
+
+    /* About page  */
+
+    .details{
+        left: 15%;
+    }
+
+    .read_more,
+    .about_links a{ 
+        padding: .7rem 2.2rem;
+    }
+
+    /* place section  */
+    .place3,
+    .place6{
+        margin-top: 5rem;
+    }
+
+    /* javascript count  */
+
+    .single_counter:nth-child(3),
+    .single_counter:nth-child(4){
+        margin-top: 4rem;
+    }
+
+    /* gallery section  */
+
+    .wapper{
+        padding: 8rem;
+    }
+
+    .gallery .image{
+        width: calc(100% / 2);
+    }
+
+    .wapper .gallery{
+        max-height: 42rem;
+        margin-top: 7.5rem;
+    }
+
+    /* footer section  */
+
+    .downloadApp{
+        background: transparent;
+    }
+    
+}
+
+
+@media only screen and (max-width: 480px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .logo img{
+        width: 100%;
+    }
+
+    .welcome{
+        position: absolute;
+        left: 55%;
+        transform: translate(-50%, 35%);
+        font-size: 6rem;
+        width: 90%;
+    }
+
+    .search_box{
+        top: 168%;
+    }
+
+    /* about page  */
+
+    .details{
+        left: 0%;
+    }
+
+    .read_more,
+    .about_links a{
+        padding: .6rem 2rem;
+    }
+
+    /* place section  */
+
+    .place_box{
+        margin-top: 5rem;
+    }
+
+    /* javascript count */
+
+    .counter_js{
+        height: 230vh;
+    }
+
+    .single_counter{
+        margin-left: 10rem !important;
+    }
+
+    /* gallery section  */
+
+    .wapper .gallery{
+        max-height: 45rem;
+        margin-top: 7.5rem;
+    }
+
+    .gallery .image{
+        width: calc(100% / 1);
+    }
+
+
+    /* footer section  */
+
+    .footer{
+        height: 110vh;
+    }
+
+    .footer_container{
+        display: block;
+        padding: 0 1rem;
+    }
+
+    .fl_title{
+        display: none;
+    }
+
+    .fmenu a{
+        
+        color: #000;
+    }
+
+    .footerM{
+        width: 100%;
+    }
+
+    .fLogo{
+        top: 13%;
+        left: 78%;
+    }
+
+    .fLogo::before,
+    .fLogo::after{
+        border: .1rem solid #000;
+    }
+    
+    .subs{
+        top: 35%;
+        width: 75%;
+        left: 51%;
+    }
+
+    .footerR{
+        margin-top: 16rem;
+    }
+
+    .footerR .fr_title{
+        float: none;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .downloadApp{
+        margin-top: 0;
+    }
+
+    .fLinks{
+        justify-content: space-around;
+    }
+}
